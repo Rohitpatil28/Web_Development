@@ -1,0 +1,35 @@
+<%- include('layout/header') %>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h4 class="mb-4 text-center">Add User</h4>
+                <form action="/add" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" name="phone"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="image" class="form-label">Choose File</label>
+                        <input type="file" class="form-control" id="image" name="image" required>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn" style="color: black;border: 1px solid black;">Add
+                            User</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include('layout/footer') %>
