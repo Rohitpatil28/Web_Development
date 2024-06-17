@@ -1,0 +1,131 @@
+#Grid1{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+#Grid2{
+    background-color: white;
+    min-height: 735px;
+    padding: 8px;
+}
+
+.Grid3{
+    display: flex;
+    overflow-y: auto;
+    max-height: 650px;
+    padding: 8px;
+}
+
+#cardGrid {
+    background-color: #fafafa;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1.5px solid #eeeeee;
+    margin: 6px 12px 6px 12px;
+}
+
+
+/*------------------------------------------------------ */
+
+
+#imgDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    overflow: hidden;
+}
+
+#imgTag {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/*------------------------------------------------------ */
+
+#productTitle {
+    font-weight: bold;
+    margin: 8px;
+}
+
+/*------------------------------------------------------ */
+
+#descriptionTypography {
+    font-size: 12px;
+    margin: 8px;
+}
+
+/*------------------------------------------------------ */
+
+#pricenAndDiscountDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#priceTypography {
+    margin-top: 4px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+#discountTypography {
+    color: green;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 4px;
+    margin-right: 20px;
+}
+
+#discountIcon {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/*------------------------------------------------------ */
+
+#stockAndRatingDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stockTypography {
+    font-size: 14px;
+    color: green;
+    font-weight: bolder;
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+#ratingTypography {
+    margin-top: 4px;
+    margin-left: 20px;
+}
+
+/*------------------------------------------------------ */
+
+#cartAndBuyButtonDiv {
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+#cartButton {
+    color: 'black';
+    border-color: 'black';
+}
+
+/*------------------------------------------------------*/
+
+#deliveryTypography{
+    font-size: 11px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+/*------------------------------------------------------*/
