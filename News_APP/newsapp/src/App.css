@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(64, 65, 65);
+}
+
+h1{
+    font-size: 3.2rem;
+    text-align: center;
+    margin: 2rem 0;
+    color: white;
+}
+
+h2{
+    font-family: serif;
+    font-size: 2.4rem;
+}
+
+
+p{
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+span{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.stories-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.card{
+    min-width: 20rem;
+    width: 40vw;
+    padding: 4rem;
+    background-color: rgb(223, 222, 222);
+    box-shadow: rgb(62, 60, 60) 0px 7px 29px 0px;
+    border-radius: 0.7rem;
+}
+
+.card-button{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-button a{
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: rgb(30, 136, 181);
+    font-weight: 400;
+}
+
+#remove-btn{
+    color: red;
+}
+
+form{
+    display: grid;
+    place-items: center;
+}
+
+input{
+    padding: 1rem;
+    min-width:40rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    border-bottom: 0.5rem solid rgb(0, 0, 0);
+}
+
+.pagination_btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination_btn p{
+    color: white;
+}
+
+button{
+    padding: 0.8rem 2.2rem;
+    border:none;
+    font-size: 1.6rem;
+    background-color: brown;
+    color: rgb(255, 255, 255);
+    margin:3rem;
+    cursor: pointer;
+    display: inline-block;
+}
+
+@media (max-width:998px){
+    html{
+        font-size: 56%;
+    }
+
+    .card{
+        min-width: 45rem;
+        padding: 2.5rem;
+    }
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 51%;
+    }
+
+    .card{
+        min-width: 35rem;
+        padding:2rem;
+    }
+}
+
